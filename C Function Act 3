@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main ()
+{
+int num; 
+printf("Input any integer:");
+scanf("%d",&num);
+
+if (num > 0) 
+{
+printf("\n The integer is a positive number",num);
+}
+else if (num < 0)
+{
+printf("\n The integer is a negative number",num);
+}
+else 
+{
+printf("The inputted data is Invalid");
+}
+
+return 0;
+
+}
